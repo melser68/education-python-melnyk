@@ -1,5 +1,5 @@
 file = open('test.txt', 'w+')
-file.write('Kontrol writing testing')
+file.write('Kontrol writing testing11')
 file.seek(0)
 rez = file.read()
 print(rez)
