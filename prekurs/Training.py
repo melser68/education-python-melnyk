@@ -1,0 +1,5 @@
+file = open('test.txt', 'w+')
+file.write('Kontrol writing testing')
+file.seek(0)
+rez = file.read()
+print(rez)
