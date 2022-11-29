@@ -1,5 +1,6 @@
-file = open('test.txt', 'w+')
-file.write('Kontrol writing testing11')
-file.seek(0)
-rez = file.read()
-print(rez)
+from pathlib import Path
+
+p = Path('C:\Program Files')
+
+for i in p.iterdir():
+    print(p.exists)
